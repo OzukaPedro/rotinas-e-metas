@@ -32,10 +32,10 @@ export default function LoginForm() {
            
         "
             >
-              <p className="ml-1">Esqueceu a senha?</p>
+              <p className="ml-1 mb-1">Esqueceu a senha?</p>
               <a
                 href=""
-                className="hover:text-blue-700 dark:hover:text-blue-500  "
+                className="hover:text-blue-700 dark:hover:text-blue-500 hover:underline "
               >
                 clique aqui
               </a>

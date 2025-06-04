@@ -20,10 +20,11 @@ export default function AuthInput({
         id={id}
         {...rest}
         className="border-b text-sm p-2 outline-none w-full
-        border-blue-600
-        text-gray-900 dark:text-gray-100
+        border-b-blue-600 border-transparent border
+        text-gray-900 dark:text-gray-100 focus:border-blue-600
+        dark:focus:border-blue-400 dark:border-b-blue-400
         placeholder:text-gray-500 dark:placeholder:text-gray-300
-        focus:ring-0 focus:border focus:rounded-md transition duration-150"
+         focus:border focus:rounded-md transition duration-150"
       />
     </Container>
   );
