@@ -22,6 +22,7 @@ export default function AuthInput({
         className="border-b text-sm p-2 outline-none w-full
         border-blue-600
         text-gray-900 dark:text-gray-100
+        placeholder:text-gray-500 dark:placeholder:text-gray-300
         focus:ring-0 focus:border focus:rounded-md transition duration-150"
       />
     </Container>
