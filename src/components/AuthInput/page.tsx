@@ -24,7 +24,7 @@ export default function AuthInput({
         text-gray-900 dark:text-gray-100 focus:border-blue-600
         dark:focus:border-blue-400 dark:border-b-blue-400
         placeholder:text-gray-500 dark:placeholder:text-gray-300
-         focus:border focus:rounded-md transition duration-150"
+         focus:border focus:rounded-md transition duration-150 focus:placeholder:text-transparent"
       />
     </Container>
   );

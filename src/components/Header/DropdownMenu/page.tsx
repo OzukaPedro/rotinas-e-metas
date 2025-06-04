@@ -26,7 +26,8 @@ export default function DropdownMenu({ title, items }: DropdownMenuProps) {
       <button
         onClick={() => setOpen(!open)}
         className="flex items-center text-sm p-3 rounded-xs
-        hover:bg-blue-100 hover:text-blue-600 transition"
+        hover:bg-blue-100 hover:text-blue-600 transition
+        dark:hover:bg-[#2a2a2a] dark:hover:text-white"
       >
         <span className=" ">{title}</span>
       </button>
