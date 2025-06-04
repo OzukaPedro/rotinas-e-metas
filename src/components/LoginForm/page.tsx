@@ -5,10 +5,10 @@ export default function LoginForm() {
   return (
     <form
       className=" flex flex-col gap-2  rounded-2xl p-8 border shadow-md
-     bg-gray-300 dark:bg-[#333333] text-black dark:text-white
-      border-[#bdbdbd] dark:border-[#5f5f5f]"
+     bg-gray-300  text-black  border-[#bdbdbd]
+      dark:bg-[#333333] dark:border-[#5f5f5f] dark:text-white"
     >
-      <h1 className="font-bold">Login</h1>
+      <h1 className="font-bold text-2xl mb-3">Login</h1>
       <AuthInput
         type="text"
         id="username"
@@ -22,11 +22,22 @@ export default function LoginForm() {
         placeholder="Senha"
       />
       <div className="text-xs mt-3">
-        <div className="text-blue-600 dark:text-blue-400 flex gap-1">
+        <div
+          className="flex gap-1
+        text-blue-600 dark:text-blue-400 
+           
+        "
+        >
           <p className="ml-1">Esqueceu a senha?</p>
-          <a href="">clique aqui</a>
+          <a href="" className="hover:text-blue-700 dark:hover:text-blue-500  ">
+            clique aqui
+          </a>
         </div>
-        <AuthButton className="text-gray-50 bg-blue-600 dark:bg-blue-600">
+        <AuthButton
+          className="
+        text-gray-50 bg-blue-600 border-blue-700
+        dark:bg-blue-600 hover:bg-blue-700 dark:hover:bg-blue-800"
+        >
           Enviar
         </AuthButton>
       </div>

@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { ChevronDown } from "lucide-react";
 
 interface DropdownMenuProps {
   title: string;
@@ -26,10 +25,10 @@ export default function DropdownMenu({ title, items }: DropdownMenuProps) {
     <div className="relative" ref={menuRef}>
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center text-sm hover:underline transition"
+        className="flex items-center text-sm p-3 rounded-xs
+        hover:bg-blue-100 hover:text-blue-600 transition"
       >
         <span className=" ">{title}</span>
-        <ChevronDown className="ml-1 w-4 h-4" />
       </button>
 
       {open && (

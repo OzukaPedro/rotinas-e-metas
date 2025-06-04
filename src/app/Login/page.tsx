@@ -7,8 +7,9 @@ export default function Login() {
   return (
     <Container
       direction={Direction.Column}
-      className="bg-background text-text min-h-screen
-                dark:bg-background-dark dark:text-text-dark 
+      className="min-h-screen
+                dark:bg-[#181818] dark:text-gray-100
+                bg-gray-50 text-gray-900 
                 "
     >
       <Container className="w-full justify-start items-start h-0 p-3  ">
