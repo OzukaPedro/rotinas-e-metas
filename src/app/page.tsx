@@ -13,7 +13,9 @@ export default function Home() {
         "
       >
         <Header />
-        <div className="flex-1 p-4 justify-center items-center flex"></div>
+        <div className="flex-1 p-4 justify-center items-center flex">
+          main page
+        </div>
         <Footer />
       </Container>
     </>

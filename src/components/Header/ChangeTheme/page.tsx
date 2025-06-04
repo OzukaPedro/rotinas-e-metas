@@ -34,13 +34,13 @@ export default function ChangeTheme() {
     <a
       onClick={toggleTheme}
       href="#"
-      className=" underline cursor-pointer w-12 h-12 rounded-3xl flex justify-center
-      items-center border-2 bg-gray-200 dark:bg-gray-700"
+      className=" underline cursor-pointer w-8 h-8 rounded-3xl flex justify-center
+      items-center border-2 "
     >
       {theme === "dark" ? (
-        <SunIcon className="w-6 h-6" />
+        <SunIcon className="w-4 h-4" />
       ) : (
-        <MoonIcon className="w-6 h-6" />
+        <MoonIcon className="w-4 h-4" />
       )}
     </a>
   );

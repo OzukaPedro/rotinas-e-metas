@@ -4,8 +4,10 @@
 
 @theme {
   --color-background: #ededed;
-  --color-background-dark: #383838;
+  --color-background-dark: #484d50;
 
-  --color-text: #383838;
+  --color-text: #484d50;
   --color-text-dark: #ededed;
+
+  --color-hover-dark: #3c3c3c;
 }
