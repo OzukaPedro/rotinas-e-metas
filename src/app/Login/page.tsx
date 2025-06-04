@@ -11,7 +11,7 @@ export default function Login() {
                 dark:bg-background-dark dark:text-text-dark 
                 "
     >
-      <Container className="w-full justify-start items-start h-0  ">
+      <Container className="w-full justify-start items-start h-0 p-3  ">
         <ChangeTheme />
       </Container>
       <Container className="flex-1">
