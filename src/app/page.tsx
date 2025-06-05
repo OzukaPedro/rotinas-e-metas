@@ -8,8 +8,7 @@ export default function Home() {
     <>
       <Container
         direction={Direction.Column}
-        className="bg-gray-50 text-gray-900 min-h-screen
-        dark:bg-[#181818] dark:text-gray-100
+        className=" text-gray-900 min-h-screen min-w-full dark:text-gray-100
         "
       >
         <Header />

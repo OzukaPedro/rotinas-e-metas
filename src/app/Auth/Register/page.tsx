@@ -8,23 +8,18 @@ export default function Register() {
   return (
     <Container
       direction={Direction.Column}
-      className="min-h-screen
-                dark:bg-gradient-to-r dark:from-[#181818] dark:to-gray-800 dark:text-gray-100
-                bg-gradient-to-r from-gray-100 to-gray-400 text-gray-900 
-                "
+      className="min-h-screen min-w-screen dark:text-gray-100 text-gray-900  "
     >
-      <Container className="w-full justify-start items-start h-0 p-3  ">
+      <Container className="w-full justify-start items-start  p-3  ">
         <div className="flex justify-center items-center gap-4 ">
           <ChangeTheme />
-          <Link
-            href="/"
-            className="border p-1 px-2 font-bold rounded-md relative z-50"
-          >
+          <Link href="/" className="border p-1 px-2 font-bold rounded-md">
             HOME
           </Link>
         </div>
       </Container>
-      <Container className="flex-1 w-full">
+
+      <Container direction={Direction.Column} className="flex-1 w-full">
         <RegisterForm />
       </Container>
     </Container>
