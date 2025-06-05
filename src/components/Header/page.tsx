@@ -7,7 +7,8 @@ export default function Header() {
     <>
       <div
         className="flex justify-between items-center w-full p-3 px-6
-      border-b dark:border-gray-100 border-gray-900 shadow-md"
+      border-b dark:border-gray-800 border-gray-400 shadow-md
+    dark:bg-[#2c3333] bg-[#aaaaaa]"
       >
         <ChangeTheme />
         <Menu />

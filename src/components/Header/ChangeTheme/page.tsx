@@ -35,7 +35,8 @@ export default function ChangeTheme() {
       onClick={toggleTheme}
       href="#"
       className=" underline cursor-pointer w-8 h-8 rounded-3xl flex justify-center
-      items-center border-2 text-gray-100 dark:text-gray-900 bg-gray-900 dark:bg-gray-100 "
+      items-center border-2 text-gray-100 dark:text-gray-900 bg-gray-900 dark:bg-gray-100
+      border-gray-900 dark:border-gray-100 relative z-50"
     >
       {theme === "dark" ? (
         <SunIcon className="w-4 h-4" />
