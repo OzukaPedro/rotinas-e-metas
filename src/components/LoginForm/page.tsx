@@ -1,19 +1,18 @@
 import AuthButton from "../AuthButton/page";
 import AuthInput from "../AuthInput/page";
-import { Direction } from "../Container/enum";
 import Container from "../Container/page";
 
 export default function LoginForm() {
   return (
     <Container
-      className="justify-start items-start border rounded-xl 
-      bg-gray-200  dark:bg-[#333333] dark:border-[#5f5f5f]
-      border-[#bdbdbd] min-w-[60%]"
+      className="flex border rounded-xl items-start
+  bg-gray-200 dark:bg-[#333333] dark:border-[#5f5f5f]
+  border-[#bdbdbd] min-w-[60%]"
     >
       <form
-        className=" flex flex-col gap-2 p-8 border shadow-md
-       text-black dark:border-[#5f5f5f] border-[#bdbdbd] rounded-l-xl
-        dark:text-white w-[50%] "
+        className="flex flex-col gap-2 p-8 border shadow-md
+   text-black dark:border-[#5f5f5f] border-[#bdbdbd] rounded-l-xl
+    dark:text-white w-[60%] h-full"
       >
         <h1 className="font-bold text-2xl mb-3">Login</h1>
         <AuthInput
@@ -56,14 +55,13 @@ export default function LoginForm() {
           </AuthButton>
         </div>
       </form>
-      <Container
-        direction={Direction.Column}
-        className="flex flex-col gap-2  w-[50%] p-8 shadow-md
-          text-black  border-[#bdbdbd] border rounded-r-xs
-          dark:border-[#5f5f5f] 
-        dark:text-white"
+      <div
+        className="flex flex-col gap-2 w-[40%] h- p-8 border
+    text-black rounded-r-xl border-transparent
+    dark:text-white"
       >
         <p>Ainda não tem conta?</p>
+        <p>Cadastre-se já para acessar a conta</p>
         <a
           href="/Register"
           className="w-full py-2 text-xs flex justify-center
@@ -72,7 +70,7 @@ export default function LoginForm() {
         >
           Cadastre-se
         </a>
-      </Container>
+      </div>
     </Container>
   );
 }
