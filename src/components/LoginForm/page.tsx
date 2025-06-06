@@ -47,7 +47,6 @@ export default function LoginForm() {
           </div>
           <AuthButton
             className="
-          rounded-r-xl
         text-gray-50 bg-blue-600 border-blue-700 font-bold
         dark:bg-blue-600 hover:bg-blue-700 dark:hover:bg-blue-800"
           >
@@ -64,7 +63,7 @@ export default function LoginForm() {
         <p>Ainda não tem conta?</p>
         <p>Cadastre-se já para acessar a conta</p>
         <a
-          href="/Auth/Register"
+          href="/auth/register"
           className="w-full py-2 text-xs flex justify-center
             items-center border rounded-md text-gray-50 bg-blue-600 border-blue-700
           dark:bg-blue-600 hover:bg-blue-700 dark:hover:bg-blue-800"
